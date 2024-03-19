@@ -1,0 +1,32 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    border: 1px solid blueviolet;
+    background-color: black;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* Adjust spacing between rows */
+}
+
+.footer-column-first,
+.footer-column-second {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+/* Example styling for the content inside the columns */
+.footer-column-first>div,
+.footer-column-second>div {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
